@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 50%, #0f0f0f 100%); /* Gradient dark background */
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mdl{
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    border-radius: 15px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%); /* Gradient glass effect */
+    backdrop-filter: blur(10px); /* Blur effect */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5), 0 0 20px rgba(255, 255, 255, 0.1); /* Enhanced shadow */
+    max-width: 500px;
+    width: 80%;
+}
+.mdl h1{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+.mdl p{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+.mdl a{
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: 2px solid #4CAF50; /* Green border */
+    color: #4CAF50; /* Green text */
+    text-decoration: none;
+    border-radius: 5px;
+    background: transparent; /* No background initially */
+    transition: all 0.3s ease;
+}
+.mdl a:hover{
+    background-color: #4CAF50; /* Green background on hover */
+    color: white; /* White text on hover */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .mdl {
+        padding: 1.5rem;
+        width: 90%;
+        max-width: none;
+    }
+    .mdl h1 {
+        font-size: 2rem;
+    }
+    .mdl p {
+        font-size: 1rem;
+    }
+    .mdl a {
+        display: block;
+        margin: 0.5rem auto;
+        width: fit-content;
+    }
+}
+
+@media (max-width: 480px) {
+    .mdl {
+        padding: 1rem;
+        border-radius: 10px;
+    }
+    .mdl h1 {
+        font-size: 1.8rem;
+    }
+    .mdl p {
+        font-size: 0.9rem;
+    }
+}
