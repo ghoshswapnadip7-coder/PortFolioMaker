@@ -17,7 +17,7 @@ PortFolioMaker is a free tool to help you create stunning portfolios easily. Cur
 ## Contributing
 We welcome contributions! Please contact the authors:
 - Main Author: [ghoshswapnadip7@gmail.com](mailto:ghoshswapnadip7@gmail.com)
-- Collaborator: [krishnatrishan@gmail.com](mailto:krishnatrishan@gmail.com)
+- Collaborator: [krishnatrishan@gmail.com](mailto:krishnatrishan085@gmail.com)
 
 ## License
 This project is open-source. Feel free to use and modify as needed.
